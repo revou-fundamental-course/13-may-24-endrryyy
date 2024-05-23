@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+} 
+  h1 {
+    text-align: center;
+    color: #333;
+    background-color: rgb(133, 156, 252);
+    padding: 10px;
+  }
+  
+  form{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  footer{
+    background: #386196;
+    height: 50px;
+    width: 100vw;
+    font-family: "Arial, sans-serif";
+    padding-top: 3px;
+    text-align: center;
+    color: #fff;
+  }
+  

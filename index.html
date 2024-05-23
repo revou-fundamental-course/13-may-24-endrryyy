@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#128208;Mini Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Welcome to My Website &#128513;</h1>
+  <h1>Math Calculator (Triangle)</h1>
+    <div class="container">
+      <img src="Rumus Luas Segitiga.jpg" alt="RumusLuasSegitiga"/>
+    </div>
+    <h1 style="background-color:rgb(133, 156, 252);">Menghitung Luas Segitiga</h1>
+
+      <form id="luassegitigaform" name="luasform" method="post" action="">
+        <p>Alas     : 
+          <input type="text" name="alas"/>
+        </p>
+        <p>
+          Tinggi    : 
+          <input type="text" name="tinggi"/>
+        </p>
+        <p>
+          Hasil     : 
+          <input type="text" name="hasilLuas"/>
+        </p>
+        <p>
+          <input type="button" onclick="hitungluas()" value ="Hitung"/>
+          <input type="Reset">
+        </p>
+      </form>
+
+      <div id="resultLuas"></div>
+      <div class="container" >
+        <img src="Rumus Keliling Segitiga.jpg" alt="RumusKelilingSegitiga" />
+      </div>
+  <h1 style="background-color:rgb(133, 156, 252);">Menghitung Keliling Segitiga</h1>
+  <form id="kelilingsegitigaform" name="kelilingform" method="post" action="">
+    <p>Sisi AB     : 
+      <input type="text" name="ab"/>
+    </p>
+    <p>Sisi BC    : 
+      <input type="text" name="bc"/>
+    </p>
+    <p>Sisi CA    : 
+     <input type="text" name="ca"/>
+    </p>
+    <p>Hasil     : 
+      <input type="text" name="hasilkeliling"   />
+    </p>
+    <p>
+      <input type="button" onclick="hitungkeliling()" value ="Hitung"/>
+      <input type="Reset">
+    </p>
+  </form>
+  <div id="resultKeliling"></div>
+  <script src="js/script.js"></script>
+
+  <footer>
+    <div class="footer-bottom">
+      <p>&copy;2024 Revo U Mini Project. designed by <span>Endry Listianto Miran</span></p>
+    </div>
+  </footer>
+</body>
+</html>
